@@ -20,7 +20,7 @@ class ContactForm{
 		$mail->setFrom($sender_email, $sender_name);
 		$mail->isHTML(true);
 
-		$mail->AddAddress('serviodestek@gmail.com');
+		$mail->AddAddress('XXXXXXXXXX@gmail.com');
 		$mail->Subject = 'Web Sayfası İletişim Formu';
 		$mail->MsgHTML(
 			'Gönderen: ' . $sender_email . '<hr>' . 
